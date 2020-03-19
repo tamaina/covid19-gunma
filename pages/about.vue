@@ -195,11 +195,19 @@
     <h2>{{ $t('お問い合わせ先（開発者の連絡先です）') }}</h2>
       <p>
         {{
+<<<<<<< HEAD
           $t('
               群馬県 新型コロナウイルス感染症 対策サイト 開発者<br />
               メール
               <a href="mailto:m17111@gunma.kosen-ac.jp">m17111@gunma.kosen-ac.jp</a>
             ')
+=======
+          $t(
+              群馬県 新型コロナウイルス感染症 対策サイト 開発者<br />
+              メール
+              <a href="mailto:m17111@gunma.kosen-ac.jp">m17111@gunma.kosen-ac.jp</a>
+            )
+>>>>>>> 9e78a104a2098ddc3ee0a51eaac58e7e083abcc5
           }}
       </p>
     </StaticCard>
