@@ -191,11 +191,17 @@
         </i18n>
       </p>
     </StaticCard>
-    </StaticCard>
-    <TextCard title="お問い合わせ先（開発者の連絡先です）">
-      群馬県 新型コロナウイルス感染症 対策サイト 開発者<br />
-      メール
-      <a href="mailto:m17111@gunma.kosen-ac.jp">m17111@gunma.kosen-ac.jp</a>
+    <StaticCard>
+    <h2>{{ $t('お問い合わせ先（開発者の連絡先です）') }}</h2>
+      <p>
+        {{
+          $t(
+              群馬県 新型コロナウイルス感染症 対策サイト 開発者<br />
+              メール
+              <a href="mailto:m17111@gunma.kosen-ac.jp">m17111@gunma.kosen-ac.jp</a>
+            )
+          }}
+      </p>
     </StaticCard>
   </div>
 </template>
