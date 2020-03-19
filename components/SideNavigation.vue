@@ -66,19 +66,13 @@ export default Vue.extend({
           link: this.localePath('/')
         },
         {
-          icon: 'CovidIcon',
-          title: this.$t('新型コロナウイルス感染症が心配なときに'),
-          link: this.localePath('/flow'),
-          divider: true
-        },
-        {
           icon: 'ParentIcon',
           title: this.$t('お子様をお持ちの皆様へ'),
           link: this.localePath('/parent')
         },
         {
           icon: 'mdi-account-multiple',
-          title: this.$t('都民の皆様へ'),
+          title: this.$t('県民の皆様へ'),
           link: 'https://www.pref.gunma.jp/02/d29g_00243.html#kenmin'
         },
         {
