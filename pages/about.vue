@@ -6,13 +6,16 @@
     <StaticCard>
       {{
         $t(
-          '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+          '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、群馬高専の学生が開発・開設したものです。
+
+          複製・改変が許されたオープンソースライセンスで公開されている、<a href="https://stopcovid19.metro.tokyo.lg.jp/">東京都 新型コロナウイルス対策サイト</a>の<a href="https://github.com/tokyo-metropolitan-gov/covid19">仕組み</a>を利用しています。'
+
         )
       }}<br />
       <br />
       {{
         $t(
-          '東京都による公式情報と客観的な数値をわかりやすく伝えることで、東京都にお住まいの方や、東京都内に拠点を持つ企業の方、東京都を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
+          '群馬県による公式情報と客観的な数値をわかりやすく伝えることで、群馬県にお住まいの方や、群馬県内に拠点を持つ企業の方、群馬県を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
         )
       }}
     </StaticCard>
@@ -149,7 +152,7 @@
       <p>
         {{
           $t(
-            '当サイトに掲載されている情報の正確性については万全を期していますが、東京都は利用者が当サイトの情報を用いて行う一切の行為について責任を負うものではありません。'
+            '当サイトに掲載されている情報の正確性については万全を期していますが、群馬県や当サイトの開発者・関係者は、利用者が当サイトの情報を用いて行う一切の行為について責任を負うものではありません。'
           )
         }}
       </p>
@@ -169,22 +172,6 @@
       </p>
     </StaticCard>
     <StaticCard>
-      <h2>{{ $t('データについて') }}</h2>
-      <i18n
-        tag="p"
-        path="本サイトで公表しているデータは、{catalogWebsite}より誰でも自由にダウンロードが可能です。（データは順次追加予定です）"
-      >
-        <a
-          href="https://portal.data.metro.tokyo.lg.jp/"
-          target="_blank"
-          rel="noopener"
-          place="catalogWebsite"
-        >
-          {{ $t('東京都オープンデータカタログサイト') }}
-        </a>
-      </i18n>
-    </StaticCard>
-    <StaticCard>
       <h2>{{ $t('ソースコードについて') }}</h2>
       <p>
         {{
@@ -194,7 +181,7 @@
         }}
         <i18n path="詳しくは、{githubRepo}をご確認ください。">
           <a
-            href="https://github.com/tokyo-metropolitan-gov/covid19"
+            href="https://github.com/SatoshiRC/covid19-gunma"
             target="_blank"
             rel="noopener"
             place="githubRepo"
@@ -204,6 +191,12 @@
         </i18n>
       </p>
     </StaticCard>
+    </TextCard>
+    <TextCard title="お問い合わせ先（開発者の連絡先です）">
+      群馬県 新型コロナウイルス感染症 対策サイト 開発者<br />
+      メール
+      <a href="mailto:m17111@gunma.kosen-ac.jp">m17111@gunma.kosen-ac.jp</a>
+    </TextCard>
   </div>
 </template>
 
