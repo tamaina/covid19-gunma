@@ -5,12 +5,10 @@
     </h2>
     <StaticCard>
       {{
-        $t(
-          '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、群馬高専の学生が開発・開設したものです。
-
-          複製・改変が許されたオープンソースライセンスで公開されている、<a href="https://stopcovid19.metro.tokyo.lg.jp/">東京都 新型コロナウイルス対策サイト</a>の<a href="https://github.com/tokyo-metropolitan-gov/covid19">仕組み</a>を利用しています。'
-
-        )
+        $t('当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、群馬高専の学生が開発・開設したものです。')
+      }}<br />
+      {{
+        $t('複製・改変が許されたオープンソースライセンスで公開されている、<a href="https://stopcovid19.metro.tokyo.lg.jp/">東京都 新型コロナウイルス対策サイト</a>の<a href="https://github.com/tokyo-metropolitan-gov/covid19">仕組み</a>を利用しています。')
       }}<br />
       <br />
       {{
