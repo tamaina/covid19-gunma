@@ -32,13 +32,6 @@
         <MenuList :items="items" @click="$emit('closeNavi', $event)" />
       </nav>
 
-      <div class="SideNavigation-Language">
-        <label class="SideNavigation-LanguageLabel" for="LanguageSelector">
-          {{ $t('多言語対応選択メニュー') }}
-        </label>
-        <LanguageSelector />
-      </div>
-
       <footer class="SideNavigation-Footer">
         <div class="SideNavigation-Social">
           <a
