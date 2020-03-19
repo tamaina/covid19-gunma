@@ -101,7 +101,6 @@ type Item = {
 
 export default Vue.extend({
   components: {
-    LanguageSelector,
     MenuList
   },
   props: {
