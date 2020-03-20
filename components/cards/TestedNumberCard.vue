@@ -7,6 +7,7 @@
       :chart-data="inspectionsGraph"
       :date="Data.inspections_summary.date"
       :unit="$t('件.tested')"
+      :note="$t('2月分は2月29日にまとめてある')"
     />
     <!-- 件.tested = 検査数 -->
   </v-col>

@@ -43,6 +43,9 @@ type Computed = {
     sText: string
     unit: string
   }
+  displayNote: {
+    text: string
+  }
   displayData: {
     labels: string[]
     datasets: {
@@ -77,6 +80,7 @@ type Props = {
   date: string
   unit: string
   url: string
+  note: string
 }
 
 const options: ThisTypedComponentOptionsWithRecordProps<
@@ -115,6 +119,10 @@ const options: ThisTypedComponentOptionsWithRecordProps<
     url: {
       type: String,
       default: ''
+    },
+    note: {
+      type: String,
+      default: ''
     }
   },
   data: () => ({
@@ -151,6 +159,11 @@ const options: ThisTypedComponentOptionsWithRecordProps<
           this.unit
         }）`,
         unit: this.unit
+      }
+    },
+    displayNote() {
+      return {
+        text: `${this.$t('注')}:${this.note}`
       }
     },
     displayData() {
