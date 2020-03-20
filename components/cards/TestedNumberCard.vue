@@ -7,6 +7,7 @@
       :chart-data="inspectionsGraph"
       :date="Data.inspections_summary.date"
       :unit="$t('件.tested')"
+      :url="'https://www.pref.gunma.jp/02/d29g_00260.html'"
     />
     <!-- 件.tested = 検査数 -->
   </v-col>
