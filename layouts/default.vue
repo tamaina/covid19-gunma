@@ -143,7 +143,9 @@ export default Vue.extend({
         {
           hid: 'og:image',
           property: 'og:image',
-          content: this.$tc('ogp.og:image')
+          content: this.$tc(
+            'https://github.com/SatoshiRC/covid19-gunma/blob/master/static/ogp.png?raw=true'
+          )
         },
         {
           hid: 'apple-mobile-web-app-title',
@@ -158,7 +160,9 @@ export default Vue.extend({
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: this.$tc('ogp.og:image')
+          content: this.$tc(
+            'https://github.com/SatoshiRC/covid19-gunma/blob/master/static/ogp.png?raw=true'
+          )
         }
       ]
     }
