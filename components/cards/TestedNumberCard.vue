@@ -1,13 +1,11 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
-    <time-stacked-bar-chart
+    <time-bar-chart
       :title="$t('検査実施数')"
       :title-id="'number-of-tested'"
-      :chart-id="'time-stacked-bar-chart-inspections'"
+      :chart-id="'time-bar-chart-inspections'"
       :chart-data="inspectionsGraph"
       :date="Data.inspections_summary.date"
-      :items="inspectionsItems"
-      :labels="inspectionsLabels"
       :unit="$t('件.tested')"
     />
     <!-- 件.tested = 検査数 -->
@@ -16,23 +14,20 @@
 
 <script>
 import Data from '@/data/data.json'
-import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
+import formatGraph from '@/utils/formatGraph'
+import TimeBarChart from '@/components/TimeBarChart.vue'
 
 export default {
   components: {
-    TimeStackedBarChart
+    TimeBarChart
   },
   data() {
     // 検査実施日別状況
-    const inspectionsGraph = [Data.inspections_summary.data['県内']]
-    const inspectionsItems = [this.$t('県内発生（疑い例・接触者調査）')]
-    const inspectionsLabels = Data.inspections_summary.labels
+    const inspectionsGraph = formatGraph(Data.inspections_summary.data)
 
     const data = {
       Data,
-      inspectionsGraph,
-      inspectionsItems,
-      inspectionsLabels
+      inspectionsGraph
     }
     return data
   }
