@@ -11,7 +11,7 @@
     />
     <template v-slot:infoPanel>
       <data-view-basic-info-panel
-        :l-text="displayNote"
+        :l-text="displayNote.text"
         :s-text="displayInfo.sText"
         :unit="displayInfo.unit"
       />
@@ -162,7 +162,9 @@ const options: ThisTypedComponentOptionsWithRecordProps<
       }
     },
     displayNote() {
-      return `${this.$t('注')}:${this.note}`
+      return {
+        text: `${this.$t('注')}:${this.note}`
+      }
     },
     displayData() {
       if (this.dataKind === 'transition') {
