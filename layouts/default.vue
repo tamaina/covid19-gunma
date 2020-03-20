@@ -87,7 +87,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://covid19-gunma-d.netlify.com${this.$route.path}`
+          href: `https://covid19-gunma.netlify.com${this.$route.path}`
         }
       ],
       meta: [
@@ -116,7 +116,7 @@ export default Vue.extend({
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `https://covid19-gunma-d.netlify.com${this.$route.path}`
+          content: `https://covid19-gunma.netlify.com${this.$route.path}`
         },
         {
           hid: 'og:locale',
@@ -143,7 +143,7 @@ export default Vue.extend({
         {
           hid: 'og:image',
           property: 'og:image',
-          content: this.$tc('ogp:image')
+          content: this.$tc('ogp.og:image')
         },
         {
           hid: 'apple-mobile-web-app-title',
@@ -158,7 +158,7 @@ export default Vue.extend({
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: this.$tc('ogp:image')
+          content: this.$tc('ogp.og:image')
         }
       ]
     }
