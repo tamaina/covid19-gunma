@@ -16,7 +16,9 @@
         :unit="displayInfo.unit"
       />
     </template>
-    <div class="note">displayNote.text</div>
+    <div class="note">
+      displayNote();
+    </div>
   </data-view>
 </template>
 
