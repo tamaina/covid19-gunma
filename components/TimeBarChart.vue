@@ -14,9 +14,9 @@
         :l-text="displayInfo.lText"
         :s-text="displayInfo.sText"
         :unit="displayInfo.unit"
-        :note="displayNote.text"
       />
     </template>
+    <div class="note">`{{ $t('※') }}:${this.note}`</div>
   </data-view>
 </template>
 
