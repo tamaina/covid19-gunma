@@ -87,7 +87,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://covid19-gunma-d.netlify.com/${this.$route.path}`
+          href: `https://covid19-gunma-d.netlify.com${this.$route.path}`
         }
       ],
       meta: [
@@ -100,7 +100,7 @@ export default Vue.extend({
           hid: 'description',
           name: 'description',
           content: this.$tc(
-            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、群馬県が開設したものです。'
+            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、群馬県の学生が開設したものです。'
           )
         },
         {
@@ -116,7 +116,7 @@ export default Vue.extend({
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `https://stopcovid19.metro.tokyo.lg.jp${this.$route.path}`
+          content: `https://covid19-gunma-d.netlify.com${this.$route.path}`
         },
         {
           hid: 'og:locale',
@@ -137,7 +137,7 @@ export default Vue.extend({
           hid: 'og:description',
           property: 'og:description',
           content: this.$tc(
-            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、群馬県が開設したものです。'
+            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、群馬県の学生が開設したものです。'
           )
         },
         {
