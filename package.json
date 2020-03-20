@@ -1,8 +1,8 @@
 {
   "name": "covid19",
   "version": "1.0.0",
-  "description": "東京都 新型コロナウイルス感染症対策サイト",
-  "author": "東京都",
+  "description": "群馬県 新型コロナウイルス感染症対策サイト",
+  "author": "群馬県",
   "private": true,
   "engines": {
     "node": ">=10.19.0"
@@ -69,9 +69,12 @@
     "nuxt-purgecss": "^0.2.1",
     "nuxt-svg-loader": "^1.2.0",
     "prettier": "^1.19.1",
-    "stylelint": "^13.2.0",
     "rimraf": "^3.0.2",
+    "stylelint": "^13.2.0",
     "vue-axe": "^1.0.8",
     "vue-jest": "^4.0.0-0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/SatoshiRC/covid19-1.git",
+  "license": "MIT"
 }
