@@ -16,7 +16,7 @@
         :unit="displayInfo.unit"
       />
     </template>
-    <div class="note">`{{ $t('※') }}:${this.note}`</div>
+    <div class="note">displayNote.text</div>
   </data-view>
 </template>
 
