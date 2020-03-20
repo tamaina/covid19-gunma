@@ -28,3 +28,7 @@ $ yarn dev
 ```bash
 $ yarn install
 ```
+### 本番環境への反映
+`master`ブランチがアップデートされると自動的に https://covid19-gunma.netlify.com/ が更新されます。
+
+`develop`ブランチがアップデートされると自動的に https://covid19-gunma-d.netlify.com/ が更新されます。
