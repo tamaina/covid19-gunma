@@ -11,14 +11,11 @@
     />
     <template v-slot:infoPanel>
       <data-view-basic-info-panel
-        :l-text="displayInfo.lText"
+        :l-text="displayNote.text"
         :s-text="displayInfo.sText"
         :unit="displayInfo.unit"
       />
     </template>
-    <div class="note">
-      displayNote();
-    </div>
   </data-view>
 </template>
 
