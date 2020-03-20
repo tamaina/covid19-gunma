@@ -16,9 +16,6 @@
         :unit="displayInfo.unit"
       />
     </template>
-    <template v-slot:note>
-      <view-note: note="displayNote.text" />
-    </template>
   </data-view>
 </template>
 
