@@ -1,0 +1,6 @@
+contacts　コールセンター相談件数
+querents 窓口相談件数
+patients　患者の属性
+patients_summary　陽性患者数
+discharges_summary　退院者数
+inspections_summary　検査数
