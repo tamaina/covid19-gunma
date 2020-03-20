@@ -143,7 +143,7 @@ export default Vue.extend({
         {
           hid: 'og:image',
           property: 'og:image',
-          content: this.$tc('ogp.png:image')
+          content: this.$tc('ogp.og:image')
         },
         {
           hid: 'apple-mobile-web-app-title',
@@ -158,7 +158,7 @@ export default Vue.extend({
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: this.$tc('ogp.png:image')
+          content: this.$tc('ogp.og:image')
         }
       ]
     }
