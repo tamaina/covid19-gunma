@@ -144,7 +144,7 @@ export default Vue.extend({
           hid: 'og:image',
           property: 'og:image',
           content: this.$tc(
-            'https://github.com/SatoshiRC/covid19-gunma/blob/master/static/ogp.png?raw=true'
+            'https://drive.google.com/file/d/1KPH1gRZaOEAtZY7U2Nnlw_yw9Q2w4vyJ/view?usp=sharing'
           )
         },
         {
@@ -161,7 +161,7 @@ export default Vue.extend({
           hid: 'twitter:image',
           name: 'twitter:image',
           content: this.$tc(
-            'https://github.com/SatoshiRC/covid19-gunma/blob/master/static/ogp.png?raw=true'
+            'https://drive.google.com/file/d/1KPH1gRZaOEAtZY7U2Nnlw_yw9Q2w4vyJ/view?usp=sharing'
           )
         }
       ]
