@@ -48,7 +48,7 @@ export default {
     return data
   },
   head() {
-    const url = 'https://covid19-gunma.netlify.com/'
+    const url = 'https://stopcovid19-gunma.netlify.com/'
     const timestamp = new Date().getTime()
     const ogpImage =
       this.$i18n.locale === 'ja'
