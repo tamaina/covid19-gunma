@@ -1,4 +1,4 @@
-<template>
+群馬県<template>
   <!-- eslint-disable vue/html-indent -->
   <noscript inline-template>
     <div class="noscript">
@@ -8,7 +8,7 @@
         }
       </style>
       <div class="noscript-heading">
-        <img src="/logo.svg" :alt="$t('東京都')" />
+        <img src="/logo.png" :alt="$t('群馬県')" />
         {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('対策サイト') }}
       </div>
       <div class="noscript-body">

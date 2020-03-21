@@ -2,7 +2,7 @@
   <v-app class="app">
     <v-overlay v-if="loading" color="#F8F9FA" opacity="1" z-index="9999">
       <div class="loader">
-        <img src="/logo.svg" alt="東京都" />
+        <img src="/logo.png" alt="群馬県" />
         <scale-loader color="#00A040" />
       </div>
     </v-overlay>
@@ -87,27 +87,27 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://stopcovid19.metro.tokyo.lg.jp${this.$route.path}`
+          href: `https://stopcovid19-gunma.netlify.com${this.$route.path}`
         }
       ],
       meta: [
         {
           hid: 'author',
           name: 'author',
-          content: this.$tc('東京都')
+          content: this.$tc('群馬県')
         },
         {
           hid: 'description',
           name: 'description',
           content: this.$tc(
-            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、群馬県の学生が開設したものです。'
           )
         },
         {
           hid: 'og:site_name',
           property: 'og:site_name',
           content:
-            this.$t('東京都') +
+            this.$t('群馬県') +
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             ' ' +
@@ -116,7 +116,7 @@ export default Vue.extend({
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `https://stopcovid19.metro.tokyo.lg.jp${this.$route.path}`
+          content: `https://stopcovid19-gunma.netlify.com${this.$route.path}`
         },
         {
           hid: 'og:locale',
@@ -127,7 +127,7 @@ export default Vue.extend({
           hid: 'og:title',
           property: 'og:title',
           content:
-            this.$t('東京都') +
+            this.$t('群馬県') +
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             ' ' +
@@ -137,19 +137,21 @@ export default Vue.extend({
           hid: 'og:description',
           property: 'og:description',
           content: this.$tc(
-            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、群馬県の学生が開設したものです。'
           )
         },
         {
           hid: 'og:image',
           property: 'og:image',
-          content: this.$tc('ogp.og:image')
+          content: this.$tc(
+            'https://lh3.googleusercontent.com/yDXeMD9Sto2LK46reUNPcsE_ZHInrBjWw6LoiWXLtUhyfBR1TYXUoILDVVlZI4lb-3xRal5p6NLmic4NEEgozfFgfIcdwbrPIUu_JaSB5uH71Alhgr0QDNJ31RyLgX3BQYl2pZoWBQ=w1305-h790'
+          )
         },
         {
           hid: 'apple-mobile-web-app-title',
           name: 'apple-mobile-web-app-title',
           content:
-            this.$t('東京都') +
+            this.$t('群馬県') +
             ' ' +
             this.$t('新型コロナウイルス感染症') +
             ' ' +
@@ -158,7 +160,9 @@ export default Vue.extend({
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: this.$tc('ogp.og:image')
+          content: this.$tc(
+            'https://lh3.googleusercontent.com/yDXeMD9Sto2LK46reUNPcsE_ZHInrBjWw6LoiWXLtUhyfBR1TYXUoILDVVlZI4lb-3xRal5p6NLmic4NEEgozfFgfIcdwbrPIUu_JaSB5uH71Alhgr0QDNJ31RyLgX3BQYl2pZoWBQ=w1305-h790'
+          )
         }
       ]
     }

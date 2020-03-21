@@ -7,7 +7,7 @@
       :chart-data="inspectionsGraph"
       :date="Data.inspections_summary.date"
       :unit="$t('件.tested')"
-      :note="$t('2月分は2月29日にまとめてある')"
+      :url="'https://www.pref.gunma.jp/02/d29g_00260.html'"
     />
     <!-- 件.tested = 検査数 -->
     <p>※</p>
@@ -17,7 +17,7 @@
 <script>
 import Data from '@/data/data.json'
 import formatGraph from '@/utils/formatGraph'
-import TimeBarChart from '@/components/TimeBarChart.vue'
+import TimeBarChart from '@/components/TimeBarChart-testedNumber.vue'
 
 export default {
   components: {

@@ -8,7 +8,7 @@
     <whats-new class="mb-4" :items="newsItems" />
     <static-info
       class="mb-4"
-      :url="'https://www.pref.gunma.jp/02/d29g_00243.html#hokenjo'"
+      :url="'https://www.pref.gunma.jp/07/z87g_00009.html'"
       :text="$t('自分や家族の症状に不安や心配があればまずは電話相談をどうぞ')"
     />
     <v-row class="DataBlock">
