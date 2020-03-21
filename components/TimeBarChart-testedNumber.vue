@@ -23,6 +23,14 @@
 </template>
 
 <style></style>
+<style lang="scss" scoped>
+.Graph-Desc {
+  width: 100%;
+  margin: 0;
+  font-size: 12px;
+  color: $gray-3;
+}
+</style>
 
 <script lang="ts">
 import Vue from 'vue'
