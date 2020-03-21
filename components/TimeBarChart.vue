@@ -28,6 +28,7 @@ import { GraphDataType } from '@/utils/formatGraph'
 import DataView from '@/components/DataView.vue'
 import DataSelector from '@/components/DataSelector.vue'
 import DataViewBasicInfoPanel from '@/components/DataViewBasicInfoPanel.vue'
+import ViewNote from '@/components/ViewNote.vue'
 
 type Data = {
   dataKind: 'transition' | 'cumulative'
@@ -42,6 +43,9 @@ type Computed = {
     lText: string
     sText: string
     unit: string
+  }
+  displayNote: {
+    text: string
   }
   displayData: {
     labels: string[]
@@ -77,6 +81,7 @@ type Props = {
   date: string
   unit: string
   url: string
+  note: string
 }
 
 const options: ThisTypedComponentOptionsWithRecordProps<
@@ -86,7 +91,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
   Computed,
   Props
 > = {
-  components: { DataView, DataSelector, DataViewBasicInfoPanel },
+  components: { DataView, DataSelector, DataViewBasicInfoPanel, ViewNote },
   props: {
     title: {
       type: String,
@@ -113,6 +118,10 @@ const options: ThisTypedComponentOptionsWithRecordProps<
       default: ''
     },
     url: {
+      type: String,
+      default: ''
+    },
+    note: {
       type: String,
       default: ''
     }
@@ -151,6 +160,11 @@ const options: ThisTypedComponentOptionsWithRecordProps<
           this.unit
         }）`,
         unit: this.unit
+      }
+    },
+    displayNote() {
+      return {
+        text: `${this.$t('注')}:${this.note}`
       }
     },
     displayData() {

@@ -10,6 +10,7 @@
       :url="'https://www.pref.gunma.jp/02/d29g_00260.html'"
     />
     <!-- 件.tested = 検査数 -->
+    <p>※</p>
   </v-col>
 </template>
 
