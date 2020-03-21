@@ -16,7 +16,9 @@
         :unit="displayInfo.unit"
       />
     </template>
-    <div>※2月15日~29日の検査数は2月29日にまとめて表示しています。</div>
+    <p class="Graph-Desc">
+      {{ $t('※2月15日~29日の検査数は2月29日にまとめて表示しています。') }}
+    </p>
   </data-view>
 </template>
 
