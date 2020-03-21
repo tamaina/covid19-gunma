@@ -16,11 +16,21 @@
         :unit="displayInfo.unit"
       />
     </template>
-    <div>※2月15日~29日の検査数は2月29日にまとめて表示しています。</div>
+    <p class="Graph-Desc">
+      {{ $t('※2月15日~29日の検査数は2月29日にまとめて表示しています。') }}
+    </p>
   </data-view>
 </template>
 
 <style></style>
+<style lang="scss" scoped>
+.Graph-Desc {
+  width: 100%;
+  margin: 0;
+  font-size: 15px;
+  color: $gray-3;
+}
+</style>
 
 <script lang="ts">
 import Vue from 'vue'
