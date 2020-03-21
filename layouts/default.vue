@@ -144,7 +144,7 @@ export default Vue.extend({
           hid: 'og:image',
           property: 'og:image',
           content: this.$tc(
-            'https://lh3.googleusercontent.com/yDXeMD9Sto2LK46reUNPcsE_ZHInrBjWw6LoiWXLtUhyfBR1TYXUoILDVVlZI4lb-3xRal5p6NLmic4NEEgozfFgfIcdwbrPIUu_JaSB5uH71Alhgr0QDNJ31RyLgX3BQYl2pZoWBQ=w1305-h790-no'
+            'https://lh3.googleusercontent.com/yDXeMD9Sto2LK46reUNPcsE_ZHInrBjWw6LoiWXLtUhyfBR1TYXUoILDVVlZI4lb-3xRal5p6NLmic4NEEgozfFgfIcdwbrPIUu_JaSB5uH71Alhgr0QDNJ31RyLgX3BQYl2pZoWBQ=w1305-h790'
           )
         },
         {
@@ -161,7 +161,7 @@ export default Vue.extend({
           hid: 'twitter:image',
           name: 'twitter:image',
           content: this.$tc(
-            'https://lh3.googleusercontent.com/yDXeMD9Sto2LK46reUNPcsE_ZHInrBjWw6LoiWXLtUhyfBR1TYXUoILDVVlZI4lb-3xRal5p6NLmic4NEEgozfFgfIcdwbrPIUu_JaSB5uH71Alhgr0QDNJ31RyLgX3BQYl2pZoWBQ=w1305-h790-no'
+            'https://lh3.googleusercontent.com/yDXeMD9Sto2LK46reUNPcsE_ZHInrBjWw6LoiWXLtUhyfBR1TYXUoILDVVlZI4lb-3xRal5p6NLmic4NEEgozfFgfIcdwbrPIUu_JaSB5uH71Alhgr0QDNJ31RyLgX3BQYl2pZoWBQ=w1305-h790'
           )
         }
       ]
